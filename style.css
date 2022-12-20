@@ -1,0 +1,141 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167bf7;
+    --cor-fundo: #00030c;
+    --font-principal: 'Inter';
+    --botao-azul-efeito: #4b97f3;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+.container_caixa{
+    margin: 0 6em;
+
+}
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao{
+    display: block;
+    padding: 1em;
+    color: var(--branco-principal);
+    border-radius: 5px;
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.botao_secundario{
+    background: transparent;
+    border: solid 2px var(--branco-principal);
+
+}
+
+.container_aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+/* Section 2*/
+
+.secundario{
+    align-items: center;
+    margin: 0 8em;
+}
+
+.secundario_imagem{
+    width: 80%;
+
+}
+
+.descricao_titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.descricao_texto{
+    color: var(--cinza-secundario);
+    line-height: 1.5em;
+}
+.container_descricao{
+    padding: 0 2em;
+}
+
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+.rodape{
+    text-align: center;
+    margin: 6em 4em;
+}
+.item_lista{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    list-style-type: none;
+}
+.link_rodape{
+    margin: 0 1em;
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.rodape_texto{
+    color: var(--cinza-secundario);
+    margin: 1em;
+    text-align: center;
+    font-size: 14px
+    
+}
+
+.container_botao:hover{
+    background-color: var(--botao-azul-efeito);
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.link_rodape:hover{
+    color: #4b97f3;
+    transition: 0.3s;
+}
