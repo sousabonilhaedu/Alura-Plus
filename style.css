@@ -116,18 +116,21 @@ body{
     margin-top: 1em;
     list-style-type: none;
 }
-.link_rodape{
-    margin: 0 1em;
-    color: var(--branco-principal);
+.rodape_lista a{
     text-decoration: none;
+    color: var(--branco-principal);
+    margin: 0 1em;
 }
-
 .rodape_texto{
     color: var(--cinza-secundario);
     margin: 1em;
     text-align: center;
     font-size: 14px
     
+}
+.rodape_lista a:hover{
+    color: #4b97f3;
+    transition: 0.2s;
 }
 
 .container_botao:hover{
